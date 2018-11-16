@@ -1,0 +1,95 @@
+---
+title: "Initial Testing of Markdown"
+author: "Keith Baggerly"
+date: "11/16/2018"
+output:
+  html_document:
+    code_folding: hide
+    number_sections: yes
+    toc: yes
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+  github_document:
+    default
+---
+
+```{r load_libraries}
+
+library(reticulate)
+
+```
+
+```{python chunk1}
+
+x = 5
+
+```
+
+```{r chunk2}
+
+py$x
+
+```
+
+
+I want to talk about `code packages`.
+
+```
+more code stuff
+possibly many lines
+```
+
+> a long quote here
+
+We can also produce numbered lists
+
+1. item 1
+1. item 2
+1. item 3
+
+
+
+This is an example of using **R Markdown**.
+
+The real strength, of course, is to be able
+to include code as well. 
+
+code bloksc involve backticks and options.
+
+```{r name_of_my_code_chunk}
+
+x <- 5
+y <- 10
+x + y
+
+```
+
+Furthermore, we can also do short things
+inline, e.g. x is `r x`.
+
+In addition to code, Markdown makes web 
+communication reasonable. 
+
+For example, the github site for this project is
+https://github.com/kabagg/fda_2018_live
+
+If I want to use a short name for the web
+page, I can do that 
+[too](https://github.com/kabagg/fda_2018_live)
+
+We also want 
+
+# Sections of Text
+
+## Subsections of Text
+
+### Subsubsections of Text
+
+how about lists?
+
+* item 1
+* item 2
+* item 33
+
