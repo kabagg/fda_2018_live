@@ -1,8 +1,3 @@
-README
-================
-Keith Baggerly
-11/16/2018
-
 What is the project about?
 
 What data do we have?

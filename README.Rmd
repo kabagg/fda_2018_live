@@ -3,7 +3,9 @@ title: "README"
 author: "Keith Baggerly"
 date: "11/16/2018"
 output: 
-  github_document
+  md_document:
+    toc: true
+  github_document: default
 ---
 
 What is the project about?
